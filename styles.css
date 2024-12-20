@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: black;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: Arial, sans-serif;
+  color: white;
+  animation: flash 1s infinite;
+}
+
+@keyframes flash {
+  0% { color: red; }
+  33% { color: yellow; }
+  66% { color: green; }
+  100% { color: blue; }
+}
